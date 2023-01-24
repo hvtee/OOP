@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1dc5ca0-0d0d-463d-a3d1-0de8a097200f" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP.iml" afterDir="false" />
+    <list default="true" id="b1dc5ca0-0d0d-463d-a3d1-0de8a097200f" name="Changes" comment="seminar3">
+      <change afterPath="$PROJECT_DIR$/src/Seminar1/Homework/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/Homework/Cooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar1/Homework/Cooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/Homework/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar1/Homework/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,13 +52,13 @@
       <recent name="C:\Java\java_projects\OOP\src\Seminar1\Task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Seminar1.Homework.Program">
-    <configuration name="ICountD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar2.Task2.ICountD" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Demka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.Task7.Demka" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar2.Task2.*" />
+          <option name="PATTERN" value="Seminar3.Task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture2.heroes.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.heroes.Program" />
+    <configuration name="Demonsration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.Task6.Demonsration" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture2.heroes.*" />
+          <option name="PATTERN" value="Seminar3.Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +79,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar2.Task1.Main" />
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.Task8.ForTest" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar2.Task1.*" />
+          <option name="PATTERN" value="Seminar3.Task8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.Task9.LambdaApp" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar3.Task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,19 +106,6 @@
       </method>
     </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar2.Task3.Program" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminar2.Task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Seminar1.Homework.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seminar1.Homework.Program" />
       <module name="OOP" />
       <extension name="coverage">
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Seminar1.Homework.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.ICountD" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lecture2.heroes.Program" />
+        <item itemvalue="Application.LambdaApp" />
+        <item itemvalue="Application.ForTest" />
+        <item itemvalue="Application.Demka" />
+        <item itemvalue="Application.Demonsration" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674219003242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a">
+      <created>1674219282026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674219282026</updated>
+    </task>
+    <task id="LOCAL-00004" summary="seminar3">
+      <created>1674299932399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674299932399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="seminar3" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

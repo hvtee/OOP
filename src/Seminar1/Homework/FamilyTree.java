@@ -3,7 +3,7 @@ package Seminar1.Homework;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FamilyTree {
+public class FamilyTree implements TreeInterface {
     private List<Integer> personID = new ArrayList<>();
     private int personIDIndex = 0;
     private List<String> fullName = new ArrayList<>();
@@ -23,6 +23,7 @@ public class FamilyTree {
         this.notice.add(notice);
     }
 
+    @Override
     public void addPerson(String fullName, String birthDate, int generation, String notice) {
         this.personID.add(personIDIndex);
         personIDIndex += 1;
@@ -32,6 +33,7 @@ public class FamilyTree {
         this.notice.add(notice);
     }
 
+    @Override
     public void showAll() {
         for (int i = 0; i < personIDIndex; i++) {
             System.out.println("Full name: " + fullName.get(i));
@@ -42,6 +44,7 @@ public class FamilyTree {
         }
     }
 
+    @Override
     public void getInfo(String fn) {
         int id = fullName.indexOf(fn);
         System.out.println("Full name: " + fullName.get(id));

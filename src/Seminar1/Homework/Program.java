@@ -13,11 +13,11 @@ public class Program {
 
 
         Person.getInfo();
+        Cooking.showFood();
 
         Cooking artem = new Cooking("Art", "Text", 3);
 
-        artem.cookEggs();
-        artem.cookPasta();
-        artem.cookLasagna();
+        artem.cook("Lasagna");
+        artem.cook("asdf");
     }
 }
